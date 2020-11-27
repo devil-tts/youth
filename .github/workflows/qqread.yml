@@ -25,7 +25,7 @@ jobs:
           npm install
       - name: '运行 【qqread】'
         run: |
-          node qqread.js
+          node Task/qqread.js
         env:
           YOUTH_HEADER: ${{ secrets.YOUTH_HEADER }}
           YOUTH_ARTBODY: ${{ secrets.YOUTH_ARTBODY }}
